@@ -2,7 +2,7 @@
 
 ## Backend Nodejs(Express)
 
-## Bài thực hành buổi 1
+## Bài thực hành buổi 2
 
 ### Made by Nguyen Huu Nhan 
 
