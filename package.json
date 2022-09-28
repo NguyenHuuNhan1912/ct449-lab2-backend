@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NguyenHuuNhan1912/ct449-lab1-backend.git"
+    "url": "git+https://github.com/NguyenHuuNhan1912/ct449-lab2-backend.git"
   },
   "keywords": [
     "nguyenhuunhan",
-    "lab1-backend"
+    "lab2-backend"
   ],
   "author": "Nguyen Huu Nhan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NguyenHuuNhan1912/ct449-lab1-backend/issues"
+    "url": "https://github.com/NguyenHuuNhan1912/ct449-lab2-backend/issues"
   },
-  "homepage": "https://github.com/NguyenHuuNhan1912/ct449-lab1-backend#readme",
+  "homepage": "https://github.com/NguyenHuuNhan1912/ct449-lab2-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
