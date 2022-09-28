@@ -104,11 +104,8 @@ exports.delete = async (req, res, next) => {
 exports.deleteAll = async (_req, res, next) => {
     try {
         const contactService = new ContactService(MongoDB.client);
-        const document = await contactService.deleteAll();
-
-        return document
-            ? res.send({ message: 'deleteAll was successfully' })
-            : next(new ApiError(500, 'contact not found'));
+        const deletedCount = await contactService.deleteAll();
+        return res.send({message: `${deletedCount} contacts was deleted successfully`})
     } catch (error) {
         return next(new ApiError(500, 'Error updating contact'));
     }

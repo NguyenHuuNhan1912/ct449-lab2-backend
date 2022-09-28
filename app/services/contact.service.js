@@ -40,7 +40,6 @@ class ContactService {
             { returnDocument: 'after', upsert: true }
         );
         return result.value;
-        // Nếu mục yêu thích không có giá trị thì mặc định là true
     }
 
     // find và findByName 2 method phục vụ chức năng xử lý tìm tất cả
